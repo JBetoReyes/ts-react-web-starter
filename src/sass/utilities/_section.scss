@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+.hero {
+    padding-block: $hero-padding;
+}
+
+.section {
+    padding-block: $section-padding;
+}
