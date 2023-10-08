@@ -1,0 +1,44 @@
+@use "../abstracts/" as *;
+
+@each $box-property in (margin, padding) {
+    #{$box-property}-0 {
+        #{$box-property}: 0;
+    }
+
+    #{$box-property}-auto {
+        #{$box-property}: auto;
+    }
+
+    #{$box-property}-block-auto {
+        #{$box-property}-block: auto;
+    }
+
+    #{$box-property}-inline-auto {
+        #{$box-property}-inline: auto;
+    }
+}
+@each $size, $size-value in $sizes {
+    @each $box-property in (margin, padding) {
+        .#{$box-property}-#{$size} {
+            #{$box-property}: $size-value;
+        }
+        .#{$box-property}-block-#{$size} {
+            #{$box-property}-block: $size-value;
+        }
+        .#{$box-property}-bloc-start-#{$size} {
+            #{$box-property}-block-start: $size-value;
+        }
+        .#{$box-property}-block-end-#{$size} {
+            #{$box-property}-block-end: $size-value;
+        }
+        .#{$box-property}-inline-#{$size} {
+            #{$box-property}-inline: $size-value;
+        }
+        .#{$box-property}-inline-start-#{$size} {
+            #{$box-property}-inline-start: $size-value;
+        }
+        .#{$box-property}-inline-end-#{$size} {
+            #{$box-property}-inline-end: $size-value;
+        }
+    }
+}
