@@ -7,6 +7,13 @@ $font-family-accent: $-ff-serif;
 $font-sizes: (
     "small": (
         "800": 3.125rem, // 50px
+        "700": 2rem, // 32px
+        "600": 1.75rem, // 28px
+        "500": 1.25rem, // 20px
+        "400": 1rem // 16px
+    ),
+    "medium": (
+        "800": 3.75rem, // 60px
         "700": 3rem, // 48px
         "600": 1.75rem, // 28px
         "500": 1.25rem, // 20px
@@ -20,6 +27,27 @@ $font-sizes: (
         "400": 1.125rem, // 18px
     )
 );
+
+$line-heights: (
+    "small": (
+        "700": 3.125rem, // 50px
+        "600": 3rem, // 48px
+        "500": 2.25rem // 36px
+        "400": 1.75rem // 28px
+    ),
+    "medium": (
+        "700": 3.75rem, // 60px
+        "600": 3.5rem, // 56px
+        "500": 2.25rem // 36px
+        "400": 1.75rem // 28px
+    ),
+    "large": (
+        "700": 5rem, // 80px
+        "600": 4rem, // 64px
+        "500": 2.5rem // 40px
+        "400": 2rem // 32px
+    ),
+)
 
 $-fw-400: 400;
 $-fw-500: 500;
