@@ -5,12 +5,20 @@ $font-family-base: $-ff-sans;
 $font-family-accent: $-ff-serif;
 
 $font-sizes: (
-    900: 5rem,
-    800: 3.75rem,
-    600: 1.6875rem,
-    500: 1.3125rem,
-    400: 1.125rem,
-    300: 1rem,
+    "small": (
+        "800": 3.125rem, // 50px
+        "700": 3rem, // 48px
+        "600": 1.75rem, // 28px
+        "500": 1.25rem, // 20px
+        "400": 1rem // 16px
+    ),
+    "large": (
+        "800": 5rem, // 80px
+        "700": 3.5rem, // 56px
+        "600": 2rem, // 32px
+        "500": 1.5rem, // 24px
+        "400": 1.125rem, // 18px
+    )
 );
 
 $-fw-400: 400;
