@@ -1,9 +1,7 @@
 import postcssPresetEnv from 'postcss-preset-env';
-import htmlPurge from 'vite-plugin-purgecss'
 
 export default {
     plugins: [
-        htmlPurge(),
         postcssPresetEnv({
             stage: 3,
             features: {
