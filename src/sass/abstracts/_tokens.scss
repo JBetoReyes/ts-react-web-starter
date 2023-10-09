@@ -10,6 +10,14 @@ $color-background-default: $color-neutral-100;
 $color-background-middle: $color-neutral-200;
 $color-background-inverse: $color-neutral-900;
 
+// body
+$body-font-family: $font-family-base;
+$body-font-size: $font-size-400;
+$body-font-weight: $font-weight-default;
+$body-line-height: $line-height-400;
+$body-text-color: $color-text-default;
+$body-background-color: $color-background-default;
+
 // layout
 $grid-gap: $size-6;
 $flex-group-gap: $size-4;
