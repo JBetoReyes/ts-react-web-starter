@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Fraunces";
+    font-weight: 500;
+    font-display: swap;
+    src: url("/fonts/fraunces.woff2") format("woff2"),
+        url("/fonts/fraunces.woff") format("woff"); 
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/manrope.woff2") format("woff2"),
+        url("/fonts/manrope.woff") format("woff");
+}
