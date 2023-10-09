@@ -1,12 +1,17 @@
+$-clr-dark-purple: hsl(273, 85%, 13%);
+$-clr-davys-gray: hsl(271, 12%, 34%);
+$-clr-ghost-white: hsl(276, 100%, 99%);
+$-clr-white: hsl(0, 0%, 100%);
+$-clr-eucalyptus: hsl(150, 100%, 63%);
+
 $colors: (
     neutral: (
-        900: #212121,
-        400: #5c5c5c,
-        200: #f8f8f8,
-        100: #ffffff
+        900: $-clr-dark-purple,
+        400: $-clr-davys-gray,
+        200: $-clr-ghost-white,
+        100: $-clr-white,
     ),
     primary: (
-        400: #ff6635,
-        500: #dd4e11,
+        400: $-clr-eucalyptus,
     )
 )
