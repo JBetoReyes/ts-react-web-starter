@@ -12,21 +12,21 @@
     transition: 275ms ease;
 
     &[data-type="accent"] {
-        background-color: clr(primary, 400);
-        color: clr(neutral, 900);
+        background-color: $color-neutral-400;
+        color: $color-neutral-900;
     }
 
     &[data-type="outline"] {
         --outline-size: 5px;
 
         background: transparent;
-        outline: var(--outline-size) solid clr(neutral, 100);
+        outline: var(--outline-size) solid $color-neutral-100;
         outline-offset: calc(var(--outline-size) * -1);
-        color: clr(neutral, 100);
+        color: $color-neutral-100;
     }
 
     &:is(:hover, :focus) {
-        background: clr(neutral, 100);
-        color: clr(neutral, 900);
+        background: $color-neutral-100;
+        color: $color-neutral-900;
     }
 }

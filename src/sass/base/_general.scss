@@ -4,6 +4,6 @@ body {
     font-family: $ff-base;
     font-weight: $fw-400;
     font-size: fs(400);
-    color: clr(neutral, 400);
+    color: $color-neutral-100;
     line-height: 1.5;
 }
