@@ -6,4 +6,34 @@
             --#{$color}-#{$shade}: #{$shade-value};
         }
     }
+
+    // font sizes custom properties
+    @each $screen-size, $font-size-map in $font-sizes {
+        @if ($screen-size == small) {
+            @each $font-size-name, $font-size-value in $font-size-map {
+                --fs-#{$font-size-name}: #{$font-size-value};
+            }
+        } @else {
+            @include mq($screen-size) {
+                @each $font-size-name, $font-size-value in $font-size-map {
+                    --fs-#{$font-size-name}: #{$font-size-value};
+                }
+            }
+        }
+    }
+    
+    // line heights custom properties
+    @each $screen-size, $line-height-map in $line-heights {
+        @if ($screen-size == small) {
+            @each $line-height-name, $line-height-value in $line-height-map {
+                --lh-#{$line-height-name}: #{$line-height-value};
+            }
+        } @else {
+            @include mq($screen-size) {
+                @each $line-height-name, $line-height-value in $line-height-map {
+                    --lh-#{$line-height-name}: #{$line-height-value};
+                }
+            }
+        }
+    }
 }
