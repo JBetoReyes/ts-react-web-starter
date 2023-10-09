@@ -1,0 +1,17 @@
+@use "colors" as *;
+@use "typography" as *;
+@use "sizes" as *;
+
+// layout
+$grid-gap: $size-6;
+$flex-group-gap: $size-4;
+
+$hero-padding: var(--hero-section-padding-block);
+$learn-more-section-padding: var(--learn-more-section-padding-block);
+$testimonial-section-padding: var(--testimonial-section-padding-block);
+
+$card-body-padding: var(--card-body-padding);
+
+$container-inline-padding: var(--container-inline-padding);
+$container-max-width: 70rem;
+$container-max-width-wider: 100rem;

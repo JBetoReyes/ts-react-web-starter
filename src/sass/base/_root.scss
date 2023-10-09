@@ -36,4 +36,45 @@
             }
         }
     }
+
+    // sections custom properties
+    --hero-section-padding-block: 8.125rem 15.5rem;
+    @include mq(medium) {
+        --hero-section-padding-block: 7.625rem 12.7rem;
+    }
+    @include mq(large) {
+        --hero-section-padding-block: 9.125rem 20.275rem;
+    }
+
+    --learn-more-section-padding-block: 10rem 4.5rem;
+    @include mq(medium) {
+        --learn-more-section-padding-block: 12.75rem 6.5rem;
+    }
+    @include mq(large) {
+        --learn-more-section-padding-block: 15.9375rem 10.6875;
+    }
+
+    --testimonial-section-padding-block: 2.9374rem 15rem;
+    @include mq(medium) {
+        --testimonial-section-padding-block: 0rem 17.175rem;
+    }
+    @include mq(large) {
+        --testimonial-section-padding-block: 0rem 8.75rem;
+    }
+
+    // cards custom properties
+    --card-body-padding: 2rem;
+    @include mq(medium) {
+        --card-body-padding: 3.5rem;
+    }
+    @include mq(large) {
+        --card-body-padding: 4rem;
+    }
+
+    // containers custom properties
+    --container-inline-padding: 1rem;
+    @include mq(medium) {
+        --container-inline-padding: 2.5rem;
+    }
+
 }
