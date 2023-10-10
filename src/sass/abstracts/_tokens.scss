@@ -69,15 +69,14 @@ $box-shadow-2: 0 $size-1 $size-4 rgb(0 0 0 / 0.15);
 // cards
 $card-flow-spacing: $size-2;
 $card-body-padding: $size-8;
-$card-background-default: $color-primary-100;
+$card-background-default: $color-neutral-100;
 $card-color-default: $body-background-color;
 $card-font-family: $body-font-family;
 $card-line-height: 1.25;
 $card-heading-font-family: $font-family-accent;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
-$card-heading-font-weight: $font-weight-bold;
-$card-heading-letter-spacing: $letter-spacing-loose;
+$card-heading-font-weight: $font-weight-semi-bold;
 $card-heading-line-height: 1;
 $card-heading-text-transform: uppercase;
 $card-border-radius: $border-radius-2;
