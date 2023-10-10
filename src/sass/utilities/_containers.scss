@@ -5,8 +5,4 @@
    --max-width: #{$container-max-width};
    width: min(100% - var(--padding), var(--max-width));
    margin-inline: auto;
-
-   &[data-type="wide"] {
-      --max-width: #{$container-max-width-wider};
-   }
 }
