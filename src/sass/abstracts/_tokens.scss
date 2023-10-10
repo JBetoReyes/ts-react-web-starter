@@ -54,3 +54,18 @@ $button-secondary-background-color: transparent;
 $button-secondary-text-color-hover: $color-text-accent;
 $button-secondary-underline-color: $color-accent-400;
 $button-secondary-underline-color-hover: $color-accent-400;
+
+// cards
+$card-flow-spacing: $size-2;
+$card-body-padding: $size-8;
+$card-background-default: $color-primary-100;
+$card-color-default: $body-background-color;
+$card-font-family: $body-font-family;
+$card-line-height: 1.25;
+$card-heading-font-family: $font-family-accent;
+$card-heading-color-default: $card-color-default;
+$card-heading-font-size: $font-size-600;
+$card-heading-font-weight: $font-weight-bold;
+$card-heading-letter-spacing: $letter-spacing-loose;
+$card-heading-line-height: 1;
+$card-heading-text-transform: uppercase;
