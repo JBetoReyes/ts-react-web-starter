@@ -33,18 +33,21 @@ $line-heights: (
         "700": 3.125rem, // 50px
         "600": 3rem, // 48px
         "500": 2.25rem, // 36px
+        "450": 2rem, // 32px
         "400": 1.75rem // 28px
     ),
     "medium": (
         "700": 3.75rem, // 60px
         "600": 3.5rem, // 56px
         "500": 2.25rem, // 36px
+        "450": 2rem, // 32px
         "400": 1.75rem // 28px
     ),
     "large": (
         "700": 5rem, // 80px
         "600": 4rem, // 64px
         "500": 2.5rem, // 40px
+        "450": 2rem, // 32px
         "400": 2rem // 32px
     ),
 );
@@ -62,6 +65,7 @@ $font-size-700: var(--fs-700);
 $font-size-800: var(--fs-800);
 
 $line-height-400: var(--lh-400);
+$line-height-450: var(--lh-450);
 $line-height-500: var(--lh-500);
 $line-height-600: var(--lh-600);
 $line-height-700: var(--lh-700);

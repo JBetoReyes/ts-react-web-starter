@@ -31,3 +31,26 @@ $card-body-padding: var(--card-body-padding);
 $container-inline-padding: var(--container-inline-padding);
 $container-max-width: 70rem;
 $container-max-width-wider: 100rem;
+
+// button
+$button-font-family: $body-font-family;
+$button-font-size: $body-font-size;
+$button-font-weight: $font-weight-semi-bold;
+$button-text-transform: none;
+$button-line-height: $line-height-450;
+$button-padding-block: 0.375em; // 32px * 0.375 = 12px
+$button-padding-inline: 0.75em; // 32px * 0.75 = 24px
+$button-border: 0;
+$button-border-radius: 0;
+// button primary
+$button-primary-text-color: $color-text-default;
+$button-primary-background-color: $color-accent-400;
+$button-primary-text-color-hover: $color-text-accent;
+$button-primary-background-color-hover: transparent;
+$button-primary-outline-color-hover: $color-accent-400;
+// button secondary
+$button-secondary-text-color: $color-text-inverse;
+$button-secondary-background-color: transparent;
+$button-secondary-text-color-hover: $color-text-accent;
+$button-secondary-underline-color: $color-accent-400;
+$button-secondary-underline-color-hover: $color-accent-400;

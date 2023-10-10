@@ -4,12 +4,41 @@
     display: inline-flex;
     cursor: pointer;
     text-decoration: none;
-    text-transform: uppercase;
-    line-height: 1;
-    border: 0;
-    font-weight: $font-weight-semi-bold;
-    padding: 1.125em 2em;
+    line-height: $button-line-height;
+    transform: $button-text-transform;
+    font-family: $button-font-family;
+    font-size: $button-font-size;
+    border: $button-border;
+    border-radius: $button-border-radius;
+    font-weight: $button-font-weight;
+    padding: $button-padding-block $button-padding-inline;
     transition: 275ms ease;
+
+    &[data-type="primary"] {
+        background-color: $button-primary-background-color;
+        color: $button-primary-text-color;
+
+        :is(:hover, :focus) {
+            --outline-size: 2px;
+
+            background-color: $button-primary-background-color-hover;
+            color: $button-primary-text-color-hover;
+            outline: var(--outline-size) solid $button-primary-outline-color-hover;
+            outline-offset: calc(var(--outline-size) * -1);
+        }
+    }
+
+    &[data-type="secondary"] {
+        background-color: $button-secondary-background-color;
+        color: $button-secondary-text-color;
+        text-decoration: underline;
+        text-decoration-color: $button-secondary-underline-color;
+
+        :is(:hover, :focus) {
+            color: $button-secondary-text-color-hover;
+            text-decoration-color: $button-secondary-underline-color-hover;
+        }
+    }
 
     &[data-type="accent"] {
         background-color: $color-neutral-400;
