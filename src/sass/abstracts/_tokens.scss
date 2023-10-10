@@ -55,6 +55,17 @@ $button-secondary-text-color-hover: $color-text-accent;
 $button-secondary-underline-color: $color-accent-400;
 $button-secondary-underline-color-hover: $color-accent-400;
 
+$border-radius-1: $size-2;
+$border-radius-2: $size-4;
+
+$button-border-radius: $border-radius-1;
+
+$form-input-border-radius: $border-radius-1;
+
+// shadows
+$box-shadow-1: 0 $size-1 $size-4 rgb(0 0 0 / 0.05);
+$box-shadow-2: 0 $size-1 $size-4 rgb(0 0 0 / 0.15);
+
 // cards
 $card-flow-spacing: $size-2;
 $card-body-padding: $size-8;
@@ -69,3 +80,5 @@ $card-heading-font-weight: $font-weight-bold;
 $card-heading-letter-spacing: $letter-spacing-loose;
 $card-heading-line-height: 1;
 $card-heading-text-transform: uppercase;
+$card-border-radius: $border-radius-2;
+$card-box-shadow: $box-shadow-1;
